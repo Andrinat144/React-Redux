@@ -1,11 +1,21 @@
 .wither {
     width: 600px;
     height: 600px;
-    display: flex;
     background-color: gray;
     border: 3px solid black;
     border-radius: 10px;
+}
+
+.witherNav {
     padding: 10px;
+    border-bottom: 3px solid black;
+    height: 50px;
+}
+
+.witherDisplay {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
 }
 
 .equipment {
@@ -17,24 +27,21 @@
 }
 
 .equipment__div {
-    width: 25%;
+    padding-top: 20px;
+    width: 100px;
     height: 100%;
     display: flex;
+    gap: 20px;
     flex-flow: column;
     justify-content:space-evenly;
 }
 
 .witherImg  {
-    width: 65%;
+    width: 350px;
     background-color: rgb(46, 125, 136);
     border-radius: 10px;
 }
 
 .witherImg > img {
     width: 100%;
-}
-
-.witherNav {
-    display: flex;
-    flex-flow: column;
 }

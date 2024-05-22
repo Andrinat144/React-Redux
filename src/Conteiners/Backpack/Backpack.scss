@@ -12,6 +12,8 @@
     border-top-left-radius: 10px;
     height: 50px;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .BackpackItem {
@@ -20,5 +22,19 @@
     height: 544px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+}
+
+.Items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.armor0, .armor1, .armor2, .weapon3, .weapon4, .jewelery5, .jewelery6 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
 }
